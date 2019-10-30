@@ -1,3 +1,9 @@
 #main_bg {
-  background-color: #303030;
+	background-color: #303030;
+}
+
+#menu_bar {
+	position: absolute;
+	top: 1%;
+	left: 1%;
 }
