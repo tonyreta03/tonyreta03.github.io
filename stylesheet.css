@@ -1,5 +1,6 @@
 .main-bg {
-	background-color: #4C4C4C;
+	background-color: #0c0032;
+	/*background-image: url("space_bg-01.jpg");*/
 	margin: 0;
 }
 
@@ -23,8 +24,44 @@
 
 .left-menu {
 	background-color: #000000;
-	border: 1px solid #53d6fd;
-	position: fixed;
-	height: calc(100vh - 3px);
-	width: 100px;
+	border: 1px solid #FFFFFF;
+	position: absolute;
+	margin: 2%;
+	height: calc(100vh - 8%);
+	width: 25%;
+}
+
+.home_page-main_text {
+	background-color: #000000;
+	position: absolute;
+	border: 1px solid #FFFFFF;
+	margin-left: .5%;
+	margin-top: 2.2%;
+	left: 30%;
+	width: 65%;
+	height: 42.5%;
+}
+
+.spotify-box {
+	background-color: #000000;
+	border: 1px solid #FFFFFF;
+	position: absolute;
+	margin-left: .5%;
+	margin-bottom: 2.5%;
+	left: 30%;
+	bottom: 0px;
+	width: 25%;
+	height: 42.5%;
+}
+
+.twitter-box {
+	background-color: #000000;
+	border: 1px solid #FFFFFF;
+	position: absolute;
+	margin-left: .5%;
+	margin-bottom: 2.5%;
+	left: 58%;
+	bottom: 0px;
+	width: 37%;
+	height: 42.5%;
 }
