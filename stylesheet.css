@@ -1,7 +1,30 @@
-#main_bg {
-	background-color: #4d4d4d;
+.main-bg {
+	background-color: #4C4C4C;
+	margin: 0;
 }
 
-.text_center {
-	text-align: center;
+.placeholder-pfp {
+	background-color: #53d6fd;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 10px;
+	height: 80px;
+	width: 80px;
+}
+
+.placeholder-icon {
+	background-color: #8B74BD;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 10px;
+	height: 80px;
+	width: 80px;
+}
+
+.left-menu {
+	background-color: #000000;
+	border: 1px solid #53d6fd;
+	position: fixed;
+	height: calc(100vh - 3px);
+	width: 100px;
 }
