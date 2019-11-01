@@ -4,24 +4,6 @@
 	margin: 0;
 }
 
-.placeholder-pfp {
-	background-color: #53d6fd;
-	display: inline-block;
-	border-radius: 50%;
-	margin: 10px;
-	height: 80px;
-	width: 80px;
-}
-
-.placeholder-icon {
-	background-color: #8B74BD;
-	display: inline-block;
-	border-radius: 50%;
-	margin: 10px;
-	height: 80px;
-	width: 80px;
-}
-
 .left-menu {
 	background-color: #000000;
 	border: 1px solid #FFFFFF;
