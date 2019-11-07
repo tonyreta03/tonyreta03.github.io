@@ -1,22 +1,22 @@
 .main-bg {
-	background-color: #0c0032;
+	background-color: #ff8ba6;
 	/*background-image: url("space_bg-01.jpg");*/
 	margin: 0;
 }
 
-.left-menu {
+.divider {
 	background-color: #000000;
-	border: 1px solid #FFFFFF;
 	position: absolute;
+}
+
+.left-menu {
+	align-items: center;
 	margin: 2%;
 	height: 92%;
 	width: 25%;
 }
 
 .home_page-main_text {
-	background-color: #000000;
-	position: absolute;
-	border: 1px solid #FFFFFF;
 	margin-left: .5%;
 	margin-top: 2.2%;
 	left: 30%;
@@ -25,9 +25,6 @@
 }
 
 .spotify-box {
-	background-color: #000000;
-	border: 1px solid #FFFFFF;
-	position: absolute;
 	margin-left: .5%;
 	margin-bottom: 2.5%;
 	left: 30%;
@@ -37,13 +34,40 @@
 }
 
 .twitter-box {
-	background-color: #000000;
-	border: 1px solid #FFFFFF;
-	position: absolute;
 	margin-left: .5%;
 	margin-bottom: 2.5%;
 	left: 58%;
 	bottom: 0;
 	width: 37%;
 	height: 42.5%;
+}
+
+.items {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.left-menu-item {
+	color: #ffffff;
+	font-size: x-large;
+	text-align: center;
+}
+
+.main-body-text {
+	font-size: x-large;
+}
+
+.main-top-text {
+	padding-top: 1%;
+}
+
+.main-bottom-text {
+	padding-bottom: 1%;
+}
+
+.main-text {
+	color: #ffffff;
+	padding-left: 2%;
+	padding-right: 2%;
 }
