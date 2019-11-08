@@ -77,10 +77,6 @@
 	left: 50%;
 }
 
-.main-body-text {
-	font-size: x-large;
-}
-
 .main-top-text {
 	padding-top: 1%;
 }
@@ -93,11 +89,26 @@
 	color: #ffffff;
 	padding-left: 2%;
 	padding-right: 2%;
+	font-size: x-large;
 }
 
-@media only screen and (max-width:620px) {
-  /* For mobile phones: */
-  .left-menu, .home_page-main_text, .spotify-box, .twitter-box, .main_text {
-    width:100%;
-  }
+.game-button {
+	background-color: #000000;
+  border: none;
+  font-size: x-large;
+	text-align: center;
+	align-self: center;
+  color: #ffffff;
+	cursor: pointer;
+	width: 210px;
+	height: 65px;
+	top: 50%;
+	left: 50%;
+}
+
+.game-enviornment {
+	background-color: #ffffff;
+	position: absolute;
+	margin: 2%;
+	transform: translate(-50%, 25%);
 }

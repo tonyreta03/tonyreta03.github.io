@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="viewport" content="width=device-width, inital-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- <meta http-equiv="refresh" content="10" > -->
 		<link rel="stylesheet" href="../stylesheet.css">
 		<title>tonyreta03 - game development</title>
@@ -24,6 +24,9 @@
       function game_development() {
         window.location.href = 'game-development_index.html'
       }
+			function load_game(url){
+				document.getElementsByTagName('iframe').src = url
+			}
 		</script>
 		<div class="left-menu divider">
 			<div class="items divider">
@@ -35,8 +38,10 @@
 			</div>
 		</div>
 		<div class="format-page_text divider">
-			<p class="main-text">insert game development projects</p>
-			<!--<a href="https://tonyreta03.github.io/game-development/games/ufo_game/">ufo game</a>-->
+			<p class="main-text">A list of video games i have created inside of Unity: </p>
+				<button class="game-button"  onclick="load_game('https://tonyreta03.github.io/game-development/games/ufo_game')">ufo game</button>
+				<button class="game-button"  onclick="load_game('https://tonyreta03.github.io/game-development/games/plinko')">plinko</button>
+				<iframe class="game-enviornment" src="" height="500px" width="500px">
 		</div>
 		<!--<script src="spotify-what_am_i_listening_to.js"></script>-->
 
