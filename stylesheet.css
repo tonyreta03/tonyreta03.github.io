@@ -94,3 +94,10 @@
 	padding-left: 2%;
 	padding-right: 2%;
 }
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .left-menu, .home_page-main_text, .spotify-box, .twitter-box, .main_text {
+    width:100%;
+  }
+}
